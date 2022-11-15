@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,96 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Гостиница 37</title>
 </head>
+
 <body class="page">
     <div class="root">
         <div class="menu">
-
+            <img class="menu__logo" src="./images/Logo.svg" alt="Логотип">
+            <div class="menu__column">
+                <ul class="menu__links">
+                    <li class="menu__item button"><a class="menu__link" href="#">Главная</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#info">О нас</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#photo">Фото</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#price">Цены</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#contact">Контакты</a></li>
+                </ul>
+                <div class="menu__block button">
+                    <a href="tel:" class="menu__block_number">ЗАБРОНИРОВАТЬ</a>
+                </div>
+            </div>
         </div>
-    </div>  
+        <header class="info" id="info">
+            <h1 class="info__title">Гостиница 37</h1>
+            <div class="info__block">
+                <img class="info__image" src="./images/InfoPhoto.png" alt="Гостиница">
+                <p class="info__text">Гостиница «37» расположена на полуострове Крым, город Судак. Наш отель предлагает
+                    вам: комфортные не дорогие номера, 2х местная кровать, холодильник, туалет. Так же рядом с отелем
+                    есть наша кухня, где вы можете приготовить себе еду. До моря идти не далеко, можно пройтись пешком,
+                    а по пути встретить несколько хороших и бюджетных ресторанов. В Судаке расположена историческая
+                    достопримечательность «Генуэзская крепость», которая пользуется большой популярностью.</p>
+            </div>
+        </header>
+        <main>
+            <section class="photo" id="photo">
+                <p class="photo__title">Фото</p>
+                <div class="photo__slideshow slideshow">
+                    <button class="photo__btn-prev button" data-way="prev"></button>
+                    <img class="photo__slide slide" src="./images/Slide2.jpg" alt="Фото номера">
+                    <img class="photo__slide slide" src="./images/Slide2.jpg" alt="Фото номера">
+                    <img class="photo__slide slide" src="./images/Slide2.jpg" alt="Фото номера">
+                    <button class="photo__btn-next button" data-way="next"></button>
+                </div>
+                <p class="photo__text">Добро пожаловать в нашу гостиницу! Из окон гостиницы открывается живописный вид
+                    на гору
+                    Ай-Георгий ( Святой Георгий ) К вашим услугам: однокомнатные но
+                    мера класса люкс на два, и четыре человека. В каждом номере: телевизор, кондиционер, холодильник,
+                    санузел, горячая и холодная вода-круглосуточно. Все номера оборудованы wi-fi интернет.</p>
+            </section>
+            <section class="price" id="price">
+                <p class="price__title">Цены</p>
+                <div class="price__block">
+                    <p class="price__text-price">Двухметсный номер:</p>
+                    <img class="price__photo" src="./images/Price2.png" alt="Фото цен">
+                </div>
+                <div class="price__block">
+                    <p class="price__text-price">Четырехметсный номер:</p>
+                    <img class="price__photo" src="./images/Price4.png" alt="Фото цен">
+                </div>
+                <div class="price__text-block">
+                    <p class="price__text">Цены Лучше уточнять по телефону</p>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <p class="contact__title">Контакты</p>
+                <div class="contact__block">
+                    <iframe class="contact__iframe" src="https://yandex.ru/map-widget/v1/-/CCUbNBHN0D" frameborder="0"
+                        allowfullscreen="true" style="position:relative;"></iframe>
+                    <div class="contact__block-info">
+                        <p class="contact__text">По любым вопросам</p>
+                        <img class="contact__arrow" src="./images/ArrowContact.svg" alt="Стрелка Вниз">
+                        <div class="contact__btn button">
+                            <a href="tel:" class="contact__number">ПОЗВОНИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="menu__column">
+                <ul class="menu__links">
+                    <li class="menu__item button"><a class="menu__link" href="#">Главная</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#info">О нас</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#photo">Фото</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#price">Цены</a></li>
+                    <li class="menu__item button"><a class="menu__link" href="#contact">Контакты</a></li>
+                </ul>
+                <div class="menu__block button">
+                    <a href="tel:" class="menu__block_number">ЗАБРОНИРОВАТЬ</a>
+                </div>
+            </div>
+        </footer>
+        <script src="./script/index.js"></script>
+    </div>
 </body>
+
 </html>
