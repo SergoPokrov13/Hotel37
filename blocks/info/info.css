@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 300px 100px 0;
+    padding: 300px 100px 0;
 }
 
 @media screen and (max-width: 1190px) {
     .info {
-        margin: 150px 100px 0;
+        padding: 150px 100px 0;
     }  
 } 

@@ -1,5 +1,5 @@
 .photo {
-    margin: 120px 0 0;
+    padding: 120px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
