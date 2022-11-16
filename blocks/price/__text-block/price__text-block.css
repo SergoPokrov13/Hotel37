@@ -1,0 +1,17 @@
+.price__text-block {
+    display: flex;
+    justify-content: right;
+    width: 860px;
+}
+
+@media screen and (max-width: 950px) {
+    .price__text-block {
+        width: 560px;
+    }
+} 
+
+@media screen and (max-width: 650px) {
+    .price__text-block {
+        width: 320px;
+    }
+} 

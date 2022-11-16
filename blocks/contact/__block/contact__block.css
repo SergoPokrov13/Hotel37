@@ -1,0 +1,12 @@
+.contact__block {
+    margin: 50px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contact__block {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

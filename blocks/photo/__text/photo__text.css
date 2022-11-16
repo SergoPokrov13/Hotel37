@@ -1,0 +1,25 @@
+.photo__text {
+    margin: 30px 0 0 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    max-width: 630px;
+}
+
+@media screen and (max-width: 860px) {
+    .photo__text {
+        max-width: 430px;
+    } 
+} 
+
+@media screen and (max-width: 650px) {
+    .photo__text {
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 20px 0 0 15px;
+    } 
+} 

@@ -1,0 +1,8 @@
+.footer{
+    margin: 120px 0 0;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E0E0E0;    
+}

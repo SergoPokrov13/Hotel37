@@ -1,0 +1,26 @@
+.title {
+    width: 200px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 49px;
+    line-height: 49px;
+    color: #626262;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 39px;
+        line-height: 39px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 29px;
+        line-height: 29px;
+    }
+}

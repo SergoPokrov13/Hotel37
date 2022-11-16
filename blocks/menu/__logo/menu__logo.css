@@ -1,0 +1,15 @@
+.menu__logo{
+    width: 195px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1190px) {
+    .menu__logo{
+        width: 105px;
+       }
+}
+@media screen and (max-width: 600px) {
+    .menu__logo{
+        width: 65px;
+       }
+}

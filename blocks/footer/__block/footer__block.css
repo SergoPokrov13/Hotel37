@@ -1,0 +1,31 @@
+.footer__block {
+    background: #E1ECEE;
+    width: 250px;
+    height: 77px;
+    border-radius: 38.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 300px;
+}
+
+@media screen and (max-width: 1190px) {
+    .footer__block {
+        width: 125px;
+        height: 50px;
+        margin: 0 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+        .footer__block {
+            margin-top: 10px;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__block {
+        width: 95px;
+        height: 30px;
+    }
+}

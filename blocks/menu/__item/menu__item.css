@@ -1,0 +1,18 @@
+.menu__item {
+    margin-right: 20px;
+}
+
+.menu__item_active {
+    border-bottom: 2px solid #6cbdff;
+}
+
+
+.menu__item:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .menu__item {
+        margin-right: 10px;
+    }
+}

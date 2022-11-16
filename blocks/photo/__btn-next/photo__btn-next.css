@@ -1,0 +1,20 @@
+.photo__btn-next {
+    padding: 0;
+    width: 60px;
+    height: 90px;
+    background: url(../../../images/BtnNext.svg);
+    background-size: cover;
+    border: none;
+    margin: 0 0 0 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .photo__btn-next {
+        max-width: 30px;
+        height: 45px;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: 30px 45px;
+        margin: 0 0 0 5px;
+    }
+} 

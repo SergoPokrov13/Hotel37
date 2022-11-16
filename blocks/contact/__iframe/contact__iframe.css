@@ -1,0 +1,38 @@
+.contact__iframe {
+    width: 630px;
+    height: 530px;
+    margin: 0 250px 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .contact__iframe {
+        width: 530px;
+        height: 430px;
+        margin: 0 150px 0 0;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .contact__iframe {
+        width: 430px;
+        height: 330px;
+        margin: 0 100px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .contact__iframe {
+        width: 430px;
+        height: 330px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact__iframe {
+        width: 270px;
+        height: 200px;
+
+    }
+}

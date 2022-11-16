@@ -1,0 +1,21 @@
+.photo__btn-prev {
+    padding: 0;
+    width: 60px;
+    height: 90px;
+    background: url(../../../images/BtnPrev.svg);
+    background-size: cover;
+    border: none;
+    margin: 0 20px 0 0;
+    background-size: cover;
+}
+
+@media screen and (max-width: 650px) {
+    .photo__btn-prev {
+        width: 30px;
+        height: 45px;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: 30px 45px;
+        margin: 0 5px 0 0;
+    }
+} 
